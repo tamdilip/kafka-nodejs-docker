@@ -13,7 +13,7 @@ Secondary docker commands to start/stop containers.
 ```
 ### Kafka Node scripts
 
- * `node create-topic.js`  - creates a kafka topic.
+ * `node create-topic.js`  - creates a kafka topic with specified number of partitions.
  * `node consumer.js` - subscribes/listens to kafka topic for published/incoming messages.
  * `node producer.js message_one 1` - publishes message to a kafka topic to the specified partition. 
  
